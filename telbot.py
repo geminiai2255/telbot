@@ -14,7 +14,7 @@ vercel_url = 'https://telbot-three.vercel.app'
 
 # Set webhook for Telegram Bot
 def set_webhook():
-    webhook_url = f"https://api.telegram.org/bot{bot_token}/setWebhook?url=https://telbot-three.vercel.app/webhook"
+    webhook_url = f"https://api.telegram.org/bot8130860956:AAEeuIM-BU58IXELUQIrfP6vxF5_moQ5brw/setWebhook?url=https://telbot-three.vercel.app/webhook"
     response = requests.get(webhook_url)
     print(response.json())
 
